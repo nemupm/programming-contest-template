@@ -19,6 +19,8 @@
 #define all(x) (x).begin(),(x).end()
 // #define int long long
 
+using namespace std;
+
 // conversion
 inline int toInt(string s) {int v; istringstream sin(s);sin>>v;return v;}
 template<class T> inline string toString(T x) {ostringstream sout;sout<<x;return sout.str();}
@@ -34,8 +36,6 @@ template<class T> inline string toString(T x) {ostringstream sout;sout<<x;return
 #endif
 
 typedef long long ll;
-
-using namespace std;
 
 const int MAX_N = 100000;
 int N;
