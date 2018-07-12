@@ -12,10 +12,8 @@
 #include <functional>
 #include <cmath>
 
-#define FOR(i,x,y) for(int i=(x);i<(y);i++)
-#define RFOR(i,x,y) for(int i=(y)-1;i>=(x);i--)
-#define REP(i,x) for(int i=0;i<(x);i++)
-#define RREP(i,x) for(int i=(x)-1;i>=0;i--)
+#define REP(i,x,y) for(int i=(x);i<(y);i++)
+#define RREP(i,x,y) for(int i=(y)-1;i>=(x);i--)
 #define all(x) (x).begin(),(x).end()
 // #define int long long
 
@@ -51,7 +49,7 @@ signed main() {
     ios::sync_with_stdio(false);
 
     cin >> N;
-    REP(i,N) cin >> A[i];
+    REP(i,0,N) cin >> A[i];
     cout << solve() << "\n";
     return 0;
 }
