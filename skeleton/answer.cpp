@@ -1,16 +1,4 @@
-#include <iostream>
-#include <sstream>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string>
-#include <vector>
-#include <map>
-#include <queue>
-#include <stack>
-#include <algorithm>
-#include <utility>
-#include <functional>
-#include <cmath>
+#include "bits/stdc++.h"
 
 #define REP(i,x,y) for(int i=(x);i<(y);i++)
 #define RREP(i,x,y) for(int i=(y)-1;i>=(x);i--)
@@ -35,22 +23,24 @@ template<class T> inline string toString(T x) {ostringstream sout;sout<<x;return
 
 typedef long long ll;
 
-const int MAX_N = 100000;
-int N;
-int A[MAX_N];
+const ll MOD = 1e9 + 7;
 
-int solve() {
-    return 0;
+void solve(vector<int>& A) {
+	stringstream ss;
+	cout << ss.str() << '\n';
+
+    return;
 }
 
 signed main() {
-    // to shorten execution time for iostream
-    cin.tie(0);
-    ios::sync_with_stdio(false);
-
+    int N;
     cin >> N;
+    
+    vector<int> A(N);
     REP(i,0,N) cin >> A[i];
-    cout << solve() << "\n";
+    
+    solve(A);
+    
     return 0;
 }
 
