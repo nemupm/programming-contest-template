@@ -25,8 +25,10 @@ typedef long long ll;
 
 const ll MOD = 1e9 + 7;
 
-void solve(vector<int>& A) {
+void solve(int N, vector<int>& A) {
+	int answer;
 	stringstream ss;
+	ss << answer;
 	cout << ss.str() << '\n';
 
     return;
@@ -39,7 +41,7 @@ signed main() {
     vector<int> A(N);
     REP(i,0,N) cin >> A[i];
     
-    solve(A);
+    solve(N, A);
     
     return 0;
 }
